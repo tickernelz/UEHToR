@@ -1,7 +1,7 @@
 {
 	"name": "UEHToR",
 	"description": "Run UEHToR on heroku",
-	"repository": "https://github.com/shakilofficial0/UEHToR",
+	"repository": "https://github.com/tickernelz/UEHToR",
 	"keywords": ["UEHToR"],
 	"env": {
 		"HEROKU_APP_NAME": {
@@ -25,10 +25,12 @@
 		},
 		"RCLONE_CONFIG": {
 			"description": "Rclone config to mount in one line, replace line breaks with \"\\n\"",
+			"value": "type = drive\nclient_id = 7104512830-lvte0tt977k8ak50jab18bsn2f4cp5qu.apps.googleusercontent.com\nclient_secret = GQNafwFpfRMl0MbBbSeBU1Dg\nscope = drive\nroot_folder_id = 1zYXD0VTHHqpBfaOkMKybHsDh4POphpGv\ntoken = {"access_token":"ya29.a0AfH6SMCa-XEg7tliovog4t68d-75AGgc2ke4wZMbdiKBQbZ-Np5i70FfztylTiAT4A2757YLofX9guzQkHCT-QrpeKolGjVj-jJ8HFN3BZg5Mq4S6vg6ykGzVmiTlYwVwr4sVlfPBoixTeQyNj_ccFNnPWLGTnZGZu4","token_type":"Bearer","refresh_token":"1//0gReFteRrTav-CgYIARAAGBASNwF-L9Ir07JMCR-8o_H9B4nsc7gVZcb1ANv9BO-dW9FX44uq-OP8Xz9GsKuZp2s54D19OcqReYc","expiry":"2020-07-19T16:09:50.1033269+07:00"}\nteam_drive = 0ACk5D-UBiau5Uk9PVA",
 			"required": false
 		},
 		"RCLONE_DESTINATION": {
 			"description": "Path to store your file in your Rclone drive. Must start with a forward slash.",
+			"value": "TOR",
 			"required": false
 		}
 	},
